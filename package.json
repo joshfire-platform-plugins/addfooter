@@ -1,0 +1,30 @@
+{
+	"name":"addfooter",
+	"fullName":"Add Footer",
+	"version":"0.0.1",
+	"keywords": [
+       "html",
+       "customization",
+       "layout"
+   ],
+   "description":"Add your own HTML footer",
+   "joshfire":{
+		"images":{
+ 	    	
+ 	  	},
+   		"hooks":["startfile"],
+   		"options":{
+   			"form":[{
+   				"key":"footerhtml",
+   				"type":"textarea"
+   			}],
+			"schema":{
+				"footerhtml":{
+					"type":"string",
+					"title":"Footer HTML",
+					"description":"This will be inserted at the end of the body."
+				}
+			}
+		}
+   }
+}
