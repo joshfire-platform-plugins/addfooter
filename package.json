@@ -10,8 +10,9 @@
    "description":"Add your own HTML footer",
    "joshfire":{
 		"images":{
- 	    	
- 	  	},
+ 	    	"small":"marketing/image-small.png",
+ 	    	"big":"marketing/image-small.png"
+ 	  	}, 	 
    		"hooks":["startfile"],
    		"options":{
    			"form":[{
