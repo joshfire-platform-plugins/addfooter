@@ -17,7 +17,8 @@
    		"options":{
    			"form":[{
    				"key":"footerhtml",
-   				"type":"textarea"
+   				"type" : "ace",
+          			"aceMode" : "html"
    			}],
 			"schema":{
 				"footerhtml":{
