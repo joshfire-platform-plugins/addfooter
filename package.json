@@ -8,6 +8,7 @@
        "layout"
    ],
    "description":"Add your own HTML footer",
+   "devonly": true,
    "joshfire":{
 		"images":{
  	    	"small":"marketing/image-small.png",
