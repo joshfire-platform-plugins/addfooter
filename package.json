@@ -1,14 +1,13 @@
 {
 	"name":"addfooter",
-	"fullName":"Add Footer",
-	"version":"0.0.1",
+	"fullName":"Add Code",
+	"version":"1.0",
 	"keywords": [
        "html",
        "customization",
        "layout"
    ],
-   "description":"Add your own HTML footer",
-   "devonly": true,
+   "description":"Insert your own HTML in your application. In particular, you can insert a javascript script tag.",
    "joshfire":{
 		"images":{
  	    	"small":"marketing/image-small.png",
@@ -24,8 +23,8 @@
 			"schema":{
 				"footerhtml":{
 					"type":"string",
-					"title":"Footer HTML",
-					"description":"This will be inserted at the end of the body."
+					"title":"HTML code to insert at the end of the body:",
+					"description":"This code will be inserted at the end of the body of your application."
 				}
 			}
 		}
